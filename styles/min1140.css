@@ -1,0 +1,22 @@
+@media (min-width: 1140px) {
+  .header-form-top {
+    width: 50%;
+    border: solid black 1px;
+    background-color: #fff;
+  }
+  .header-black {
+    display: block;
+  }
+  .container {
+    padding: 0 140px;
+  }
+  .furniture-sections__promotion {
+    display: flex;
+  }
+  .furniture-sections__childrensroom {
+    display: flex;
+  }
+  .furniture-sections__promotion-text {
+    color: #d74444;
+  }
+}/*# sourceMappingURL=min1140.css.map */

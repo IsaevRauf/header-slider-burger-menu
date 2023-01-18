@@ -1,0 +1,25 @@
+@media (min-width: 1140px) {
+  .header-form-top {
+    width: 50%;
+    border: solid black 1px;
+    background-color: #fff;
+  }
+  .header-black {
+    display: block;
+  }
+  .container {
+    padding: 0 140px;
+  }
+  .furniture-sections {
+                              // новый раздел после слайда
+    &__promotion {
+      display: flex;
+    }
+    &__childrensroom {
+      display: flex;
+    }
+    &__promotion-text {
+      color: #d74444;
+    }
+  }
+}

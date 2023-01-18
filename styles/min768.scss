@@ -1,0 +1,40 @@
+@media (min-width: 768px) {
+  .header-form-down {
+    display: none;
+  }
+  .header-form-top {
+    display: flex;
+    width: 50%;
+  }
+  .header__nav__right__delivery {
+    display: flex;
+  }
+  .slick-track {
+    display: none; //отключаем слайд
+  }
+  .furniture-sections {
+    // новый раздел после слайда
+    display: flex;
+    &__promotion {
+      display: none;
+    }
+    &__childrensroom {
+      display: none;
+    }
+  }
+  .mobile-title {
+    display: none; // отключаем картинку с текстом под хедером
+    // и подключаем новый слайдер
+  }
+  .slider2 .slick-track {
+   display: flex;
+ }
+ .slider2 .slick-arrow {
+   display: flex;
+}
+.bestsellers-cards {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+}

@@ -1,0 +1,37 @@
+@media (min-width: 768px) {
+  .header-form-down {
+    display: none;
+  }
+  .header-form-top {
+    display: flex;
+    width: 50%;
+  }
+  .header__nav__right__delivery {
+    display: flex;
+  }
+  .slick-track {
+    display: none;
+  }
+  .furniture-sections {
+    display: flex;
+  }
+  .furniture-sections__promotion {
+    display: none;
+  }
+  .furniture-sections__childrensroom {
+    display: none;
+  }
+  .mobile-title {
+    display: none;
+  }
+  .slider2 .slick-track {
+    display: flex;
+  }
+  .slider2 .slick-arrow {
+    display: flex;
+  }
+  .bestsellers-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}/*# sourceMappingURL=min768.css.map */
